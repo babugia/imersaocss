@@ -1,0 +1,39 @@
+body {
+  background-image: url('https://www.mundojs.com.br/wp-content/uploads/2018/07/particulas.png');
+  background-size: auto 100vh;
+  font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: purple;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.menu {
+  background: white;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.menu li {
+  list-style: none;
+}
+
+.site-title {
+  color: whitesmoke;
+  text-align: center;
+}
+
+.site-subtitle {
+  color: lightpink;
+  font-style: italic;
+  text-align: center;
+}
